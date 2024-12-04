@@ -1,0 +1,29 @@
+<script lang="ts">
+	import EachVideo from '../../components/each_video.svelte';
+	import image from '../../media/home/C (8).png'; //56789-10-12-13 //C1C8C13 D5D13 //A1
+	let showContent = $state(false);
+	import { content } from '../../state/content.svelte';
+</script>
+
+<div class="h-full w-full">
+	{#if showContent == false}
+		<!-- svelte-ignore a11y_click_events_have_key_events -->
+		<!-- svelte-ignore a11y_no_static_element_interactions -->
+		<div class="relative h-full w-full" onclick={() => (showContent = !showContent)}>
+			<!-- <div class="absolute flex h-full w-full items-center justify-center self-center border">
+			<div class="rounded-full border-2 border-blue-600 bg-black px-16 py-1 text-white">GO</div>
+		</div> -->
+			<img src={image} alt="" class="h-full w-full" />
+		</div>
+	{/if}
+
+	{#if showContent}
+		<div class="h-full w-full">
+			<div class="grid grid-cols-2 px-3 py-2">
+				{#each content.content['songs'] as eachSong}
+					<EachVideo data={eachSong} />
+				{/each}
+			</div>
+		</div>
+	{/if}
+</div>
