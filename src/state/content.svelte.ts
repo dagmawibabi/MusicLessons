@@ -62,6 +62,124 @@ export const content = $state({
 				link: 'https://dagmawibabi.com/music/tutorials/Guitar/Songs/Hold Me by Jamie Grace.mp4'
 			}
 		],
-		chords: []
+		chords: [],
+		musicTheory: {
+			books: [
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew'
+				}
+			],
+			links: [
+				{
+					title: 'Music Theory for Guitarists',
+					source: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					source: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					source: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					source: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					source: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					source: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				}
+			],
+			youtube: [
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				},
+				{
+					title: 'Music Theory for Guitarists',
+					author: 'Dawit Getachew',
+					link: 'https://www.youtube.com/watch?v=5kCggxorgIs'
+				}
+			],
+			customVideo: [
+				{
+					title: 'Abet Cherneth',
+					artist: 'Dawit Getachew',
+					notes: '',
+					link: 'https://dagmawibabi.com/music/tutorials/Guitar/Songs/Abet Cherneth by Dawit Getachew.mp4'
+				},
+				{
+					title: 'Abet Cherneth',
+					artist: 'Dawit Getachew',
+					notes: '',
+					link: 'https://dagmawibabi.com/music/tutorials/Guitar/Songs/Abet Cherneth by Dawit Getachew.mp4'
+				},
+				{
+					title: 'Abet Cherneth',
+					artist: 'Dawit Getachew',
+					notes: '',
+					link: 'https://dagmawibabi.com/music/tutorials/Guitar/Songs/Abet Cherneth by Dawit Getachew.mp4'
+				},
+				{
+					title: 'Abet Cherneth',
+					artist: 'Dawit Getachew',
+					notes: '',
+					link: 'https://dagmawibabi.com/music/tutorials/Guitar/Songs/Abet Cherneth by Dawit Getachew.mp4'
+				}
+			]
+		}
 	}
 });

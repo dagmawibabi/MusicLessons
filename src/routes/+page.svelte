@@ -1,7 +1,6 @@
 <script>
 	import SidePanelButton from '../components/side_panel_button.svelte';
 	import { tabs } from '../state/tab.svelte';
-	import Books from './content/books.svelte';
 	import Chords from './content/chords.svelte';
 	import FingerPicking from './content/finger_picking.svelte';
 	import Home from './content/home.svelte';
@@ -24,7 +23,6 @@
 		<SidePanelButton label={'Finger Picking'} />
 		<SidePanelButton label={'Music'} />
 		<SidePanelButton label={'Tabs'} />
-		<SidePanelButton label={'Books'} />
 		<SidePanelButton label={'Other Resources'} />
 	</div>
 
@@ -56,8 +54,6 @@
 					<Music />
 				{:else if tabs.selectedTab === 'Tabs'}
 					<Tabs />
-				{:else if tabs.selectedTab === 'Books'}
-					<Books />
 				{:else if tabs.selectedTab === 'Other Resources'}
 					<OtherResources />
 				{/if}
